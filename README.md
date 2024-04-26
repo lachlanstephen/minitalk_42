@@ -20,7 +20,7 @@ make	# Creates the server and client executables
 
 # In a separate terminal, run the client executable, using the following arguments
 
-./client <server_pid> "<string_to_send>"
+./client <server_pid> <string_to_send>
 
 # e.g. ./client 3855 "Hello, world!"
 ```
@@ -31,3 +31,7 @@ make	# Creates the server and client executables
 
 - [ ] Complete remaining bonus - Server acknowledgement of message
 - [ ] Re-evaluate project with bonuses
+
+<h3>Personal Note</h3>
+
+<p>I personally really enjoyed this project. The UNIX signals we were allowed to use only could communicate a 1 or 0, so the idea of breaking down strings and characters into their bit form to capitalise on the limiations of the signals to send to a separate terminal window was very interesting. Getting to use bitwise comparisons and operators to make this happen, which is slightly closer to some maths than other tasks, was also good fun.</p>
